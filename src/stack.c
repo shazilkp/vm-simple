@@ -35,6 +35,7 @@ int peek(Stack * s){
 	}
 	
 	int val = s->data[s->top];
+	//printf("peek called");
 	return val;
 }
 
